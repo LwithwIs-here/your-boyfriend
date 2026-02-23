@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Happy Birthday My Love 🎂❤️</h1>
+
+<p>
+i love u babe ... i love u so much  💖<br>
+.<br>
+Main hamesha tumhare saath rahunga aur tumhe hamesha khush rakhunga.<br>
+I Love You Forever 😘
+</p>
+
+<button onclick="window.location.href='surprise.html'">Click For Surprise 💌</button>
+
+<div class="kiss">💋</div>
+
+<script>
+/* Floating hearts */
+for(let i=0;i<100;i++){
+    let heart = document.createElement("div");
+    heart.innerHTML = "❤️";
+    heart.classList.add("heart");
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = (Math.random() * 30 + 20) + "px";
+    heart.style.animationDuration = (Math.random() * 3 + 3) + "s";
+    document.body.appendChild(heart);
+}
+</script>
+
+</body>
+</html>

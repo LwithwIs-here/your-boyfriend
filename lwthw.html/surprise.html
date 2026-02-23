@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For You ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>My Beautiful ❤️</h1>
+
+<p>
+Happy Birthday meri jaan 💖<br>
+Tum meri life ka sabse special part ho.<br>
+Main hamesha tumhare saath rahunga.<br>
+Tumhari smile meri duniya hai.<br>
+I Love You Forever 😘
+</p>
+
+<div class="kiss">💋</div>
+
+<script>
+for(let i=0;i<100;i++){
+    let heart=document.createElement("div");
+    heart.innerHTML="❤️";
+    heart.classList.add("heart");
+    heart.style.left=Math.random()*100+"vw";
+    heart.style.fontSize=(Math.random()*30+20)+"px";
+    heart.style.animationDuration=(Math.random()*3+3)+"s";
+    document.body.appendChild(heart);
+}
+</script>
+
+</body>
+</html>
